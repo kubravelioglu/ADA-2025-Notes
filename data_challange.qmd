@@ -1,0 +1,27 @@
+---
+title: "Data_structures_note"
+format: html
+editor: visual
+---
+**File upload **
+
+```{r}
+library(readr)
+df <- read.csv(
+file = "~/ADA-2025-Notes/Country-Data-2016.csv",
+sep = ",",
+header = TRUE,
+stringsAsFactors = FALSE
+)
+
+```
+
+ncol(df)
+nrow(df)
+
+head(df)
+str(df)
+
+names(df)
+
+hi there
